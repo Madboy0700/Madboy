@@ -9,7 +9,7 @@ general_5 : "Bu eylemi gerçekleştirmek için sesli sohbet haklarına sahip yö
 general_6 : "Bot sesli sohbette yayın yapmıyor. 🥀"
 
 # Classes - Telegram.py
-tg_1 : "Bot şu anda indirilenlerle **Aşırı yüklenmiş**. @Blayzen hesabına düzeltmesi için bu mesajı bildiriniz.\n\n**Deneme Süresi:** {0} (__beklenen süre__))"
+tg_1 : "Bot şu anda indirilenlerle **Aşırı yüklenmiş**. @MAD1BOY hesabına düzeltmesi için bu mesajı bildiriniz.\n\n**Deneme Süresi:** {0} (__beklenen süre__))"
 tg_2 : "Telegram'dan Medya İndirilirken Hata Oluştu."
 
 # Core - Call.py
