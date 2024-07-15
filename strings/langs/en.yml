@@ -15,7 +15,7 @@ tg_2 : "Telegram'dan Medya İndirilirken Hata Oluştu."
 # Core - Call.py
 call_1 : "Bot, asistan hesabını grubunuza davet etmek için **Yönetici** İzni gerektirir.\n\Lütfen bota davet yetkisi verin."
 call_2 : "**Asistanı Grubunuzda yasaklamışsınız**, lütfen yasağı kaldırın! \nAsistanın bilgileri aşağıda unban yaparsanız tekrar katılabilir. Veya grup ayarlarında çıkarılan kullanıcılar listesinde asistanı bulup engeli kaldırın. Yapamazsanız @Blayzen hesabına ulaşın.\n\n**Asistan Kullanıcı Adı:** @{0}\n**Asistan ID:** {1}"
-call_3 : "Asistan Hesabı sohbetinize katılırken sorun oluştu.\nLütfen @{0} hesabını gruba kendiniz ekleyin veya @Blayzen hesabına yazın.\n\n**Sistem Notu**: {1}"
+call_3 : "Asistan Hesabı sohbetinize katılırken sorun oluştu.\nLütfen @{0} hesabını gruba kendiniz ekleyin veya @MAD1BOY hesabına yazın.\n\n**Sistem Notu**: {1}"
 call_4 : "Bot, asistan hesabını sohbet grubunuza davet etmek için **Kullanıcıları Bağlantı Yoluyla Davet Et** Yetkisi gerektirir.\nLütfen bota davet yetkisi verin."
 call_5 : "**Asistan Hesabı 5 Saniye içinde katılacak.. Lütfen Bekleyin.** 🔮"
 call_6 : "**Asistan Hesabı [{0}] Başarıyla Katıldı. ✅\n\nMüzik Şimdi Başlatılıyor.**"
@@ -75,7 +75,7 @@ admin_34 : "İleri Sarılırken Hata Oluştu."
 
 # Start
 start_1 : "**Beni {0} Grubunuza Davet Ettiğiniz İçin Teşekkürler.\n{1} Çalışıyor. ❤️‍🔥\n\nHerhangi Bir Yardım Almak İçin Destek Grubumuza Veya Kanalımıza Göz Atın.**"
-start_2 : "**{0}'una Hoş Geldiniz. 🥀\n\nGrubunuza Ekleyerek Sesli Sohbetlerinizde Kaliteli Müzik Dinleyebilirsiniz.**"
+start_2 : "**{0}'una Hoş Geldiniz. 🔮\n\nGrubunuza Ekleyerek Sesli Sohbetlerinizde Kaliteli Müzik Dinleyebilirsiniz.**"
 start_3 : "**Beni Grubunuza Davet Ettiğiniz İçin Teşekkürler.**\n\n**Çalışmak için Sadece Sesli sohbetleri Yönetme ve Gruba Davet Etme Yetkisi Vermeniz Yeterlidir.** 🥀\n\n**Asistan Kullanıcı Adı:** @{1}"
 start_4 : "**{0}'un Sahibi {1} Sohbetinize Katıldı.** 👑"
 start_5 : "**{0}'i Çok Kıymetli {1} Beyefendinin Grubunuza Katıldığını Fark Etti. Kendisine Saygılarımı Sunarım.** 🙏"
@@ -140,7 +140,7 @@ cplay_5 : "Yalnızca Kanallar Desteklenir."
 cplay_6 : "Kanalı bu gruba bağlamak için[{0}] kanalın **Sahibi** olmanız gerekir.\n**Kanal Sahibi:** @{1}\n\nAlternatif olarak grubunuzu o kanala bağlayabilirsiniz. ve ardından `/channelplay bağlantılı ile bağlanmayı deneyin`"
 
 #Play
-play_1 : "**Parça İndiriliyor.. Lütfen Bekleyin.** 🥀"
+play_1 : "**Parça İndiriliyor.. Lütfen Bekleyin.** 🔮"
 play_2 : "**🏷Kanal Oynatma Modu**\n🔮 Sorgu İşleniyor... Lütfen Bekleyin!\n\n**Bağlı Kanal:** {0}"
 play_3 : "Sorgu İşlenemedi! Başka Bir Parça Oynatmayı Deneyiniz. 🥀"
 play_4 : "🖇 **Yalnızca Yöneticiler Oynatır**\nYalnızca Yöneticiler ve Yetkilendirilmiş Kullanıcılar bu grupta müzik çalabilir.\n\nModu /playmode aracılığıyla değiştirin ve zaten yöneticiyseniz, /admincache aracılığıyla admincache'i yeniden yükleyin"
@@ -151,8 +151,8 @@ play_8 : "Geçerli Bir Video Dosyası Uzantısı Değil!\n\n**Desteklenen Biçim
 play_9 : "Video Dosya Boyutu 1 GB'den Küçük Olmalı. 🥀"
 play_10 : "**Youtube Oynatma Listesi Özelliği**\n\nYoutube Oynatma Listesinin tamamını oynatmak istediğiniz Modu seçin"
 play_11 : "🔮Başlık: **{0}\n\n⏱Süre:** {1} Dakika"
-play_12 : "**Spotify Oynatma Listeleri**\n\n👤Talep Eden:- {0}"
-play_13 : "**Apple Oynatma Listeleri**\n\n👤Talep Eden:- {0}"
+play_12 : "**Spotify Oynatma Listeleri**\n\n👉Talep Eden:- {0}"
+play_13 : "**Apple Oynatma Listeleri**\n\n👉Talep Eden:- {0}"
 play_14 : "**URL doğrulanamıyor.**\nBot, bu url'nin şu platformlardan birine ait olup olmadığını merak ediyor: Youtube, AppleMusic, Spotify, Resso ve Soundcloud.\n\nM3u8 veya Uzak Bağlantılar için /stream'i kullanabilirsiniz.."
 play_15 : "**Canlı Yayın Algılandı**\n\nSistemler, stream bağlantınızı canlı yayın olarak algıladı. Canlı yayın oynamak istiyormusunuz ?"
 play_16 : "Parça ayrıntıları getirilemedi. Başka şarkı deneyin. 🔮"
@@ -191,7 +191,7 @@ str_2 : "✅ Geçerli Akış Doğrulandı\n\nLütfen bağlantının işlenmesini
 str_3 : "Youtube canlı yayın akışı yapılamıyor. Canlı Biçim Bulunamadı"
 
 #TopPlay
-tracks_1 : "**{0} En Çok Oynatılan 10 Şarkı Başlamak Üzere, Lütfen Hazır Olana Kadar Bekleyin... 🥀 **\n\n**👤Talep Eden:** {1}"
+tracks_1 : "**{0} En Çok Oynatılan 10 Şarkı Başlamak Üzere, Lütfen Hazır Olana Kadar Bekleyin... 🥀 **\n\n**👉Talep Eden:** {1}"
 tracks_2 : "**Hata**\n\nBot'un sunucularında **{0} En İyi 10 Oynatma Listesi** yok. Lütfen başka bir oynatma listesi deneyin"
 
 
@@ -224,15 +224,15 @@ song_11 : "**Yükleme Başladı\n\nYükleme hızı yavaş olabilir. Lütfen bekl
 queue_1 : "**Lütfen Bekleyin.. Sıra Alınıyor...** 🔮"
 queue_2 : "Sırada Malesef Hiçbir Şey Yok. 😔"
 queue_3 : "<u>**Sıradaki Parçalar:</u>**  [Sıradaki Parçalara Burdan Bakabilirsiniz]({0})"
-queue_4 : "❤️‍🩹 Sıraya eklendi **#{0}\n\n🔮Başlık:** {1}\n**⏱Süre:** {2}\n👤**Talep Eden: {3}**"
+queue_4 : "❤️‍🩹 Sıraya eklendi **#{0}\n\n🔮Başlık:** {1}\n**⏱Süre:** {2}\n👉**Talep Eden: {3}**"
 queue_5 : "Sırada Sadece Bir Parça Var, Lütfen Biraz Daha Parça Ekleyin. 🎧"
 
-stream_1 : "🔮**Başlık**: {0} \n**⌛️Süre**: {2}\n**👤Talep Eden**: {3}"
-stream_2 : " **Yayın Başlatıldı** \n**Başlık**: {0}\n**⌛️Süre**: {2}\n**👤Talep Eden**: {3}"
-stream_3 : "🔮**Başlık**: {0}\n**⌛️Süre**: {1}\n**👤Talep Eden**: {2}"
-stream_4 : "🔮**Başlık**: [{0}]\n**⌛️Süre**: {2}\n**👤Talep Eden**: {3}"
-stream_5 : "🔮**Başlık**: {0}\n**👤Talep Eden**:{1}"
-stream_6 : " **Yayın Başlatıldı**  \n**Parça**: [{0}]({1})\n**👤Talep Eden**: {2}"
+stream_1 : "🔮**Başlık**: {0} \n**⌛️Süre**: {2}\n**👉Talep Eden**: {3}"
+stream_2 : " **Yayın Başlatıldı** \n**Başlık**: {0}\n**⌛️Süre**: {2}\n**👉Talep Eden**: {3}"
+stream_3 : "🔮**Başlık**: {0}\n**⌛️Süre**: {1}\n**👉Talep Eden**: {2}"
+stream_4 : "🔮**Başlık**: [{0}]\n**⌛️Süre**: {2}\n**👉Talep Eden**: {3}"
+stream_5 : "🔮**Başlık**: {0}\n**👉Talep Eden**:{1}"
+stream_6 : " **Yayın Başlatıldı**  \n**Parça**: [{0}]({1})\n**👉Talep Eden**: {2}"
 
 
 
@@ -254,7 +254,7 @@ S_B_3 : "🎉 Destek Grubu"
 S_B_4 : "🎩 Duyuru"
 S_B_5 : "✚ Beni Grubuna Ekle ✚"
 S_B_6 : "💡 Git Repo"
-S_B_7 : "❤️‍🔥 Developer"
+S_B_7 : "👤 İletişim Hesabı"
 S_B_8 : "📚 Komutlar Menüsü"
 
 #Help 
@@ -278,7 +278,7 @@ P_B_4 : "🎵 Oynatma Listelerimi Oynat"
 
 #Playlist
 PL_B_1 : "⚡ Oynatma listelerimi oynat"
-PL_B_2 : "❤️‍🩹 Listeme Ekle"
+PL_B_2 : "✅ Listeme Ekle"
 PL_B_3 : "⚙️ Kontrol Paneli"
 PL_B_4 : "📡 Oynatma Modu"
 PL_B_5 : "🔄 Tüm Listeyi Sil"
