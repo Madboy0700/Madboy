@@ -22,7 +22,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "6757500151:AAGhmP3LiGppNJiWyL6gGKNW54O_uD2VuH4"
 
 # Database to save your chats and stats.
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Madpanel:-7baQy@P$c@bNma@cluster0.unlzuvm.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://erkbwrs084:909090@cluster0.qdrfgmb.mongodb.net/?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 
