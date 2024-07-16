@@ -10,7 +10,7 @@ assistantids = []
 
 class Userbot(Client):
     def __init__(self):
-        super().__init__(
+        self.one = Client(
             "ArchMusicString1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
