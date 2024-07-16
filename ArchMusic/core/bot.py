@@ -52,7 +52,7 @@ class ArchMusic(Client):
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
         )
-        self.restart_interval = timedelta(hours=4)  # Varsayılan olarak 4 saat
+        self.restart_interval = timedelta(hours=1)  # Varsayılan olarak 4 saat
 
     async def start(self):
         await super().start()
