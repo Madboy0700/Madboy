@@ -1,4 +1,4 @@
-import sys
+import os
 import asyncio
 from datetime import timedelta
 from pyrogram import Client
@@ -6,15 +6,12 @@ from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import BotCommand, BotCommandScopeAllPrivateChats, BotCommandScopeAllGroupChats
 
 import config
-
 from ..logging import LOGGER
-
 
 private_commands = [
     BotCommand("start", "🎧 Botu başlatır"),
     BotCommand("yardim", "📖 Yardım menüsünü gösterir"),
 ]
-
 
 group_commands = [
     BotCommand("oynat", "🔼 Müziği oynatır"),
@@ -33,14 +30,10 @@ group_commands = [
     BotCommand("ayarlar", "⚙️ Bot Ayarlarını Gösterir"),
     BotCommand("restart", "🔃 Botu Yeniden Başlatır"),
     BotCommand("reload", "❤️‍🔥 Yönetici Önbelleğini Günceller"),
-    
 ]
 
 async def set_commands(client):
-    
     await client.set_bot_commands(private_commands, scope=BotCommandScopeAllPrivateChats())
-    
-    
     await client.set_bot_commands(group_commands, scope=BotCommandScopeAllGroupChats())
 
 class ArchMusic(Client):
@@ -52,7 +45,7 @@ class ArchMusic(Client):
             api_hash=config.API_HASH,
             bot_token=config.BOT_TOKEN,
         )
-        self.restart_interval = timedelta(hours=1)  # Varsayılan olarak 4 saat
+        self.restart_interval = timedelta(hours=1)  # Varsayılan olarak 1 saat
 
     async def start(self):
         await super().start()
@@ -96,13 +89,17 @@ class ArchMusic(Client):
 
         LOGGER(__name__).info(f"MusicBot {self.name} olarak başlatıldı")
 
-        
-        self.schedule_restart() # Res Fonksiyon Başla
+        self.schedule_restart()  
 
     async def restart_bot(self):
         LOGGER(__name__).info("Bot yeniden başlatılıyor...")
-        await self.stop()
-        await self.start()
+        try:
+            await self.send_message(config.LOG_GROUP_ID, "Bot otomatik olarak yeniden başlatılıyor...")
+            await asyncio.sleep(2)  # İsteğe
+            os.system("kill -9 {}".format(os.getpid()))
+            os.system("bash start")
+        except Exception as e:
+            LOGGER(__name__).error(f"Hata ile yeniden başlatılırken: {e}")
 
     def schedule_restart(self):
         loop = asyncio.get_event_loop()
