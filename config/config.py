@@ -12,9 +12,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "27832384"))
+API_ID = int(getenv("API_ID", "24054192"))
 
-API_HASH = getenv("API_HASH", "786380962c3fe56f6ea6cc61dbf1ace9")
+API_HASH = getenv("API_HASH", "ed9a8a61a1b4a1ad0915cbe87ba490ed")
 
 ## Get it from @Botfather in Telegram.
 
@@ -184,7 +184,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "AQGosEAALGOJsweRK0CkQQg3PCcpS9Om6tBiXc0Iqu_adjaiDfoQe6ciTe2ahCkXWoXUbVe1dqbq-EXWo8yBlyWVY-m4t4BCsO4wHsorwKKDv1KD3laf7Wr9ZIPzIZhIojNgkWp85ZbRnL4sZYmqnmM2au_c-hXJGk0iuc7wrJbXeH2HjncRY6iW7tIHKBBldCmig2NRaizh_0rygw1DhSk72ZtfF5W3d4J6AQigiWcdphpojdQvNHzGJKlJfPMWi5TMN9p69deFaFRvjAnTw385FrBK0zWC3OVN0lS6Musxg1teQuO0Vis-SDAEipuEm6MRELK1rTlMu7FDHPXwF6-IYzugAAAAG-4cF2AA")
+STRING1 = getenv("STRING_SESSION", "BAAGtVnawoafEoHr7rzDa7VTTY_U3r0X9Gv4qw5UGorddfWZ8xbu1vgRT0cqhraAx3J-rAAYoxXXEvZp-bAg_OZaFx-O1kg6BlKLovpW7I2P1OxVjWEhLKDmTPx2MKhpKTgrV3m0ksa4uiJt7GAyc656OJR_eHGwXYQKCEauDrqjIB9t67KFcxgmI2CsUTGAR77f7NMIUbG49gwSUZk-jBSc9Co7oZujwuNkHkq2vxMAdZTZZEGszGqvNcYOAwXBjtry6X1opkOy9LlaP3Ofxjc0G8JmU0V4rtklGEIKvIUBZpI3uNQAV10xzoBL8ExopbSD3Kjjs7W_4SlPUqEB0U2hAAAAAV-_AH8A")
 
 STRING2 = getenv("STRING_SESSION2", None)
 
