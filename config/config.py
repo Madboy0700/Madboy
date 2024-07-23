@@ -46,7 +46,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","☬𝐆𝐞𝐜𝐞 𝐄𝐱𝐩𝐫𝐞𝐬𝐬☬")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","gece express bot")
 
 # Your User ID.
 
