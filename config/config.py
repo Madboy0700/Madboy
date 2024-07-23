@@ -12,9 +12,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", "27832384"))
+API_ID = int(getenv("API_ID", "29058022"))
 
-API_HASH = getenv("API_HASH", "786380962c3fe56f6ea6cc61dbf1ace9")
+API_HASH = getenv("API_HASH", "56e67fa171fbc2791bf7f47d412fd447")
 
 ## Get it from @Botfather in Telegram.
 
@@ -46,7 +46,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002182187594"))
 
 # A name for your Music bot.
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","GeceExpress Bot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","☬𝐆𝐞𝐜𝐞 𝐄𝐱𝐩𝐫𝐞𝐬𝐬☬")
 
 # Your User ID.
 
@@ -84,11 +84,11 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", None) # Example:- https://t.me/ArchBots
+    "https://t.me/DostTicaret", None) # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", None)  # Example:- https://t.me/ARCH_SUPPORTS
+    "https://t.me/tantanasohbet", None )  # Example:- https://t.me/ARCH_SUPPORTS
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 
@@ -184,8 +184,7 @@ SET_CMDS = getenv("SET_CMDS", False)
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
 
-STRING1 = getenv("STRING_SESSION", "AQCEnj6tTRZix_zj5SOdHYF_hrd_1mHZshX8AlqsCOdmsjlBolA4M06W_vocEVVXV-c6LdOqM0KNo8ROl1nvHKfY5edENu79DGz77tl8wA9miQvId3YM7rSWJZfLcKzVW-KxsAbzFtSPCmzZYhuQ6AD3OM3lyjzjuzfTDXghHb_ZW15YDGFRqUFdLLrBGJNtu7X4eNlDJPrCG1uzUNAq9qrt00fX-8SfniB5cs1PgkoIKVnau1wXX_vHUHJRg7s8t3a6rAhoMt_r_L-fHqnzs1hy65jPl20cKflhUacoEoS5f_wPBbOmu81LE-m4Rwx9ZHX-CbfqMojM64FZkOrsdRpwAAAAAb7hwXYA")
-
+STRING1 = getenv("STRING_SESSION", "BAG7Y-YASe7Q-tO-aMWlODgF5GECNKWvjjh_-LmtmFSQBzNTQojCldnC_8sW3uYjGmY99aiBTCbKREcxm3_XGDEnIjlhz5ytvWHjD8aMVdUmM-4p-3nSQwbx-rBiyPcj51hbLvgccFcm5xYezKYUlIOS8DGaO1ITAa2SmxHQGu0lGcOJF7-P4cmtsGAzCguC1DhdOgZg7k-U-e7tsH77K-H155qgBqTKWqGpsD26xTA7pbYr1TJ-PL5HQBgo7L4A6QdVS7ujj2XqwEeOM7b0HtdpYOZ1qftWzRi32b7tdTzrFzrXtULSIDc4Sm6ncGFC5pp0kUJvBc-Yn6jLFufb_Xe3LKk5AgAAAAG9O8q4AA")
 STRING2 = getenv("STRING_SESSION2", None)
 
 STRING3 = getenv("STRING_SESSION3", None)
